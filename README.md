@@ -69,7 +69,9 @@ plt.grid(True)
 
 plt.tight_layout()
 plt.show()
+```
 Delta Modulation:
+```
 #Delta Modulation
 import numpy as np
 import matplotlib.pyplot as plt

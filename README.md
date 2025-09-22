@@ -5,8 +5,9 @@ Write a simple Python program for the modulation and demodulation of PCM, and DM
 Python IDE (Numpy)
 # Program
 ```
-# PCM import matplotlib.pyplot as plt
+#PCM
 import numpy as np
+import matplotlib.pyplot as plt
 
 # Parameters
 sampling_rate = 5000  # Sampling rate (samples per second)
@@ -58,10 +59,10 @@ plt.xlabel("Time [s]")
 plt.ylabel("Amplitude")
 plt.grid(True)
 
-# Plot 'PCM Demodulation'
+# Plot 'PCM Demodulation' 
 plt.subplot(4, 1, 4)
-plt.plot(t, quantized_signal, label="Signal Demodulation", color='purple', linestyle='--')
-plt.title("Signal Without Demodulation")
+plt.plot(t, quantized_signal, label="PCM Demodulation Signal", color='purple', linestyle='--')
+plt.title("PCM Demodulation Signal")
 plt.xlabel("Time [s]")
 plt.ylabel("Amplitude")
 plt.grid(True)
@@ -70,7 +71,12 @@ plt.tight_layout()
 plt.show()
 ```
 # Output Waveform
-<img width="1559" height="616" alt="image" src="https://github.com/user-attachments/assets/72f78054-3379-4af3-a923-0945c43d190a" />
+pulse modulation:
+<img width="1189" height="990" alt="image" src="https://github.com/user-attachments/assets/b899b454-0d25-4c0e-aff2-8041779101f7" />
+delta modulation:
+<img width="1203" height="590" alt="image" src="https://github.com/user-attachments/assets/b6f57bfb-caa7-4303-8be4-ffea201d8916" />
+
+
 
 # Results
 

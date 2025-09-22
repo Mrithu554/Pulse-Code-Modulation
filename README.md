@@ -70,13 +70,10 @@ plt.tight_layout()
 plt.show()
 ```
 # Output Waveform
-```
 <img width="1559" height="616" alt="image" src="https://github.com/user-attachments/assets/72f78054-3379-4af3-a923-0945c43d190a" />
 
-```
 # Results
-```
+
 Pulse Code Modudlation was successfully performed using a pulse train. The modulated signal preserved the amplitude variations of the message signal. Reconstruction demonstrated accurate signal recovery, confirming PCM's role in communication
 
-```
 

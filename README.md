@@ -77,5 +77,6 @@ plt.show()
 # Results
 ```
 Pulse Code Modudlation was successfully performed using a pulse train. The modulated signal preserved the amplitude variations of the message signal. Reconstruction demonstrated accurate signal recovery, confirming PCM's role in communication
+
 ```
 
